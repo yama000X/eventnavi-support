@@ -1,1 +1,163 @@
-404: Not Found
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同人イベ - サポート</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 18px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .subtitle {
+            color: #86868b;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .card h2 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .card p, .card li {
+            font-size: 14px;
+            color: #424245;
+        }
+        .card ul {
+            padding-left: 20px;
+        }
+        .card li {
+            margin-bottom: 6px;
+        }
+        .contact-link {
+            display: block;
+            text-align: center;
+            background: #6366f1;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+            margin-top: 12px;
+        }
+        .contact-link:hover {
+            background: #4f46e5;
+        }
+        .faq-item {
+            border-bottom: 1px solid #f0f0f0;
+            padding: 12px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .faq-q {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .faq-a {
+            font-size: 13px;
+            color: #6e6e73;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            font-size: 12px;
+            color: #86868b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">📅</div>
+            <h1>同人イベ</h1>
+            <p class="subtitle">同人イベント検索・参加管理アプリ</p>
+        </div>
+
+        <div class="card">
+            <h2>アプリについて</h2>
+            <p>「同人イベ」は、同人誌即売会の検索・締切管理・参加予定の管理ができるiOSアプリです。</p>
+            <ul style="margin-top: 8px;">
+                <li>イベント情報の検索・フィルタリング</li>
+                <li>申込締切のリマインダー通知</li>
+                <li>カレンダー連携</li>
+                <li>参加ステータスの管理（サークル参加 / 一般参加 / 検討中）</li>
+                <li>お気に入りイベントの保存</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>よくある質問</h2>
+            <div class="faq-item">
+                <p class="faq-q">Q. イベント情報が表示されません</p>
+                <p class="faq-a">A. インターネット接続を確認してください。初回起動時にデータをダウンロードします。オフラインでも前回取得したキャッシュデータで利用できます。</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q. 締切通知が届きません</p>
+                <p class="faq-a">A. 設定 > 同人イベ > 通知 がオンになっているか確認してください。</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q. カレンダーに追加できません</p>
+                <p class="faq-a">A. 設定 > 同人イベ > カレンダー のアクセスを許可してください。</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">Q. イベント情報に誤りがあります</p>
+                <p class="faq-a">A. 下記のお問い合わせからご連絡ください。確認の上、修正いたします。</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>お問い合わせ</h2>
+            <p>不具合の報告やご要望は、以下よりお気軽にご連絡ください。</p>
+            <a class="contact-link" href="mailto:yama000x.app@gmail.com">メールで問い合わせる</a>
+        </div>
+
+        <div class="card">
+            <h2>プライバシーポリシー</h2>
+            <p>本アプリは、お気に入り・参加ステータスなどの設定情報を端末内にのみ保存します。外部サーバーへの個人情報の送信は行いません。</p>
+            <p style="margin-top: 8px;">イベント情報の取得のためにインターネット通信を行いますが、ユーザーを特定する情報は一切送信しません。</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 同人イベ</p>
+        </div>
+    </div>
+</body>
+</html>
